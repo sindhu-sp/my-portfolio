@@ -2,7 +2,7 @@ import React from "react";
 function Footer(){
 
       return(
-            <footer>
+            <footer className="w-100 mt-auto bg-secondary p-4">
             <ul>
            
               <li>

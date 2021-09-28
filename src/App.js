@@ -1,10 +1,10 @@
 import react from 'react';
 import About from '../src/components/About'
 import Header from '../src/components/Header'
-// import Footer from '../src/components/Footer'
 import Contact from '../src/components/Contact'
 import Resume from '../src/components/Resume'
 import Footer from '../src/components/Footer'
+import Project from '../src/components/Project'
 import './App.css';
 import './index.css';
 
@@ -20,7 +20,9 @@ function App() {
     else if (currentPage === 'resume') {
       return <Resume />;
     }
-    
+    else if (currentPage === 'project') {
+      return <Project />;
+    }
   }
   return (
     <div>

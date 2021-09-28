@@ -20,6 +20,12 @@ function Nav({setCurrentPage}) {
              Resume: 
              </a>
          </li>
+         <li >
+             <a href="#project"
+                 onClick = {() => setCurrentPage('project')}>
+             Project: 
+             </a>
+         </li>
          
      </ul>
 
