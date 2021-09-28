@@ -11,7 +11,7 @@ function About() {
   </div>
   <p>
     lorem ipsum dolor sit amet, consectetur adip
-    </p>  
+     </p>  
 </section>
   );
 }

@@ -13,7 +13,7 @@ function Project() {
          
            {photos.map((project) => (
           // add imp tag and display project image and add links to GitHub 
-            <div key={project.id}  name={project.name} imgurl ={project.imgurl} githuburl={project.githuburl} deployUrl={project.deployurl} topics={project.topics}/>
+            <div name={project.name} imgurl ={project.imgurl} githuburl={project.githuburl} deployUrl={project.deployurl} topics={project.topics}/>
   ))}
   
   </section>
