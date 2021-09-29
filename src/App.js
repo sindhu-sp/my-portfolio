@@ -29,7 +29,7 @@ function App() {
     <div>
       <Header setCurrentPage={setCurrentPage}/>
       <main>
-        {displayPage()};
+        {displayPage()}
       </main>
       <Footer></Footer>
     </div>
