@@ -1,3 +1,54 @@
+## my-portfolio
+
+## About this project
+Using the new React skills to help to help showcase the new skills in technologies.
+Need to deploy this application to GitHub Pages.
+
+## User Story
+As an employer looking for candidates with experience building single-page applications, the user wants to view a potential employee's deployed React portfolio of work samples, so that I can assess whether they're a good candidate for an open position.
+
+## Criteria
+A single-page application portfolio for a web developer needs to be build with the following criteria
+
+* When the user load the portfolio, then the user presented with a page containing a header, a section for content, and a footer
+* When the user view the header, then the user presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+* When the user view the navigation titles, then the user presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+* When the user click on a navigation title, then the user presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+* When the user load the portfolio the first time, then the About Me title and section are selected by default
+* When the user presented with the About Me section, then the user see a recent photo or avatar of the developer and a short bio about them
+* When the user presented with the Portfolio section, then the user see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+* When the user presented with the Contact section, then the user see a contact form with fields for a name, an email address, and a message
+* When the user move my cursor out of one of the form fields without entering text, then the user receive a notification that this field is required
+* When the user enter text into the email address field, then the user receive a notification if I have entered an invalid email address
+* When the user am presented with the Resume section, then the user see a link to a downloadable resume and a list of the developer’s proficiencies
+* When the user view the footer, then the user presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
+## Technical Criteria
+
+* A single Header component that appears on multiple pages
+* A single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
+* A single Project component that will be used multiple times in the Portfolio section
+* A single Footer component that appears on multiple pages
+* The email address and phone number added on the Contact page.
+
+### Projects
+For each project you feature in your portfolio, you should include the following:
+* An image of the deployed application (either a GIF or a screenshot)
+* The title of the project
+* A link to the deployed application
+* A link to the corresponding GitHub repository
+### Design
+* Use mobile-first design.
+* Chooses a color palette so that your site doesn't just look like the default Bootstrap theme or an unstyled HTML site. 
+* The font size is large enough to read and that the colors don't cause eye strain.
+* Application uses React to render content.
+* Application has a single Header component that appears on multiple pages, with a Navigation component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
+* Application has a single Project component that’s used multiple times in the Portfolio section.
+* Application has a single Footer component that appears on multiple pages.
+* Application must be deployed to GitHub Pages.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
