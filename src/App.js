@@ -4,12 +4,13 @@ import Header from '../src/components/Header'
 import Contact from '../src/components/Contact'
 import Resume from '../src/components/Resume'
 import Footer from '../src/components/Footer'
-import Project from '../src/components/Project'
-// import './App.css';
+import ProjectPage from '../src/components/Project/ProjectPage'
 import './index.css';
+import './project.css';
+
 
 function App() {
-  const [currentPage, setCurrentPage] =react.useState('');
+  const [currentPage, setCurrentPage] =react.useState('about');
   const displayPage = () => {
     if (currentPage === 'about') {
       return <About />;
@@ -21,7 +22,7 @@ function App() {
       return <Resume />;
     }
     else if (currentPage === 'project') {
-      return <Project />;
+      return <ProjectPage />;
     }
   }
   return (

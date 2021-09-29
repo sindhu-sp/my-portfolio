@@ -32,10 +32,6 @@ function Contact() {
             }
           };
           
-        // console.log('errorMessage', errorMessage);
-      
-      
-    //   console.log(formState);
    
     return (
         <section id="contact">

@@ -5,7 +5,9 @@ function Header({setCurrentPage}) {
 
     return (
         <header className="header">
-            <a href = "/" onClick = {()=> setCurrentPage("/")}></a>
+            <a href = "/" onClick = {()=> setCurrentPage('')} alt="header">
+                
+            </a>
             <h1>Sindhu</h1>
            <Nav setCurrentPage={setCurrentPage}></Nav> 
         </header>

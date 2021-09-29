@@ -1,0 +1,97 @@
+/* CSS for my work */
+.project {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 20vw);
+    grid-gap: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS for the url image */
+.project-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid 3px rgb(84, 84, 202)
+}
+
+.project-photo:hover {
+    opacity: .5;
+}
+
+/* CSS for using grids for url */
+.proj1 {
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 1;
+    grid-row-end: 1;
+}
+
+.proj2 {
+    position: relative;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 1;
+}
+
+.proj3 {
+    position: relative;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 1;
+}
+
+.proj4 {
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 1;
+    grid-row-end: 2;
+}
+.proj5 {
+    position: relative;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+.proj6 {
+    position: relative;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 2;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    position: relative;
+    /* opacity: 1; */
+}
+
+
+
+/* CSS for figure caption */
+figcaption {
+    background-color: var(--light);
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    align-self: flex-start;
+    bottom: 10px;
+    border: none;
+}
