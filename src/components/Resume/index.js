@@ -4,7 +4,7 @@ import resumeFile from '../../assets/resume/resume.pdf';
 function Resume() {
 return(
     <section id="resume">
-        <p>Technologies:</p>
+        <h2>Technical Skills:</h2>
         <ul>
             <li>HTML</li>
             <li>CSS</li>

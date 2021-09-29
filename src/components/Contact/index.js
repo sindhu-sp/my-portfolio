@@ -47,7 +47,7 @@ function Contact() {
             </div>
             <div>
               <label htmlFor="message">Message:</label>
-              <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
+              <textarea name="message" defaultValue={message} onChange={handleChange} rows="7" />
             </div>
             <button type="submit">Submit</button>
           </form>
