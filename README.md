@@ -47,6 +47,18 @@ For each project you feature in your portfolio, you should include the following
 * Application has a single Footer component that appears on multiple pages.
 * Application must be deployed to GitHub Pages.
 
+## GitHub URL
+https://github.com/sindhu-sp/my-portfolio
+
+## Deployed URL
+https://sindhu-sp.github.io/my-portfolio/
+
+<br />
+<br />
+<hr />
+<hr />
+<br />
+<br />
 
 
 # Getting Started with Create React App
